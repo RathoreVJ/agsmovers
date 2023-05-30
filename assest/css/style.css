@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* navbar start */
+a{
+    text-decoration: none;
+}
+.text-justify{
+    text-align: justify;
+}
+header .tophead{
+    width: 100%;
+    height: 28px;
+    background: #34313a;
+}
+header .tophead .leftgroup ul li{
+    margin: 0px 20px;
+}
+header .tophead .leftgroup ul li a{
+    color: #fff;
+    font-size: 13px;
+}
+header .tophead .leftgroup ul li a:hover{
+    text-decoration: underline;
+}
+header .tophead .rightgroup ul li{
+    margin: 0px 15px;
+}
+header .tophead .rightgroup ul li a{
+    color: #fff;
+    font-size: 13px;
+}
+header .tophead .rightgroup ul li a:hover{
+    text-decoration: underline;
+}
+header .tophead .rightgroup ul li select{
+    background: #34313a;
+    color: #fff;
+    border: none;
+    font-size: 13px;
+}
+.navbar-light form button{
+    background: #b00000;
+    border-radius: 7px;
+    border: none;
+    width: 150px;
+    height: 35px;
+    text-align: center;
+    padding-top: 3px;
+    margin-top: 7px;
+   
+}
+
+/* navbar end */
+
+/* slider section start */
+.carousel-inner .carousel-item{
+    height: 500px;
+}
+@keyframes zoomin{
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.3);
+    }
+}
+.carousel-inner .carousel-item img{
+    animation: zoomin 20s infinite;
+}
+.carousel-dark .carousel-indicators [data-bs-target]{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+
+.carousel-inner .carousel-item .carousel-caption{
+    bottom: 4.25rem;
+}
+.carousel-indicators{
+    bottom: 3rem;
+}
+/* slider section end */
+
+/* international removel section start */
+
+.interbox{
+    min-height: 200px;
+    margin-top: -50px;
+    z-index: 9;
+    background: #fff;
+}
+.interbox p{
+    font-size: 16px;
+    font-weight: 600;
+    color: #292b2c;
+}
+.interbox h1{
+    color:#b00000
+}
+.interbox a{
+    color:#b00000
+}
+
+/* international removel section end */
+
+
+/* Media queary start */
+@media only screen and (max-width:1024px){
+    header .tophead{
+        display: none;
+    }
+
+}
+
+@media only screen and (min-width:768px){
+    .carousel-inner .carousel-item .carousel-caption{
+        bottom: 9.5rem !important;
+    }
+    .carousel-indicators{
+        bottom: 9rem;
+    }
+    
+
+}
+/* Media queary end */
