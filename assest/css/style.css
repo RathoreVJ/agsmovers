@@ -107,6 +107,144 @@ header .tophead .rightgroup ul li select{
 /* international removel section end */
 
 
+/* individual and corporation section start  */
+
+.imgbox{
+    overflow: hidden;
+}
+.imgbox img:hover{
+    transform: scale(1.1);
+    transition: 1s all;
+}
+
+.row .whiteBtn{
+    box-sizing: border-box;
+    width: fit-content;
+    float: left;
+    margin-right: 20px;
+}
+.row .whiteBtn a{
+    color: #b00000;
+    display: flex;
+    margin: auto;
+    font-size: 14px;
+    text-transform: uppercase;
+    background-color: transparent;
+    border: 2px solid #b00000;
+    text-align: center;
+    font-weight: 600;
+    padding: 8px 30px;
+}
+.row .whiteBtn a:hover{
+    transition: .5s all;
+    color: #fff;
+    background: #b00000;
+    
+}
+.row .redBtn{
+    box-sizing: border-box;
+    border: none;
+    width: fit-content;
+    float: left;
+}
+.row .redBtn a{
+    display: flex;
+    margin: auto;
+    font-size: 14px;
+    text-transform: uppercase;
+    background-color: #b00000;
+    color: #fff;
+    padding: 10px 30px;
+    font-weight: 600;
+}
+
+/* individual and corporation section end  */
+
+
+
+/* domestic section start */
+
+.domestic{
+    background: #34313a;
+}
+.domestic .col-md-2{
+    margin-right: 8px;
+}
+.domestic img:hover{
+    transform: scale(1.1);
+} 
+
+/* domestic section end */
+
+
+/* client section start */
+
+.client h2{
+    color: #b00000;
+}
+.client img{
+    width: 300px;
+    height: 120px;
+    margin-right: 25px;
+}
+
+/* client section end*/
+
+
+/* world section start */
+
+.world{
+    background: url(../img/removals_bg.jpg);
+    background-size: cover;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.world .redBtn{
+    margin-left: 380px;
+}
+.worldwide .whiteBtn{
+    margin-left: 300px;
+    margin-top: 30px;
+}
+.worldwide .redBtn{
+    margin-right: 400px;
+    margin-top: 30px;
+    
+}
+
+/* world section end */
+
+
+/* footer section start  */
+
+footer img{
+    width: 200px;
+    margin-bottom: 14px;
+    
+}
+footer a:hover{
+    text-decoration: underline;
+}
+footer button{
+    background: #b00000;
+    border-radius: 7px;
+    border: none;
+    width: 150px;
+    height: 35px;
+    text-align: center;
+    padding-top: 3px;
+    margin-top: 7px;
+}
+ footer .col-md-6{
+    margin-top: 25px;
+ } 
+
+ footer .glob{
+    width: 80px;
+ }
+/* footer section end */
+
+
 /* Media queary start */
 @media only screen and (max-width:1024px){
     header .tophead{
