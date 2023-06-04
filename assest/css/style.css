@@ -205,10 +205,12 @@ header .tophead .rightgroup ul li select{
 .worldwide .whiteBtn{
     margin-left: 300px;
     margin-top: 30px;
+    display: flex;
 }
 .worldwide .redBtn{
     margin-right: 400px;
     margin-top: 30px;
+    display: flex;
     
 }
 
@@ -262,5 +264,22 @@ footer button{
     }
     
 
+}
+
+@media only screen and (max-width:1024px){
+    .worldwide .whiteBtn{
+        margin-left: 0;
+    }
+}
+
+@media only screen and (min-width:768px){
+    /* .world .redBtn{
+        margin-left: 270px;
+    } */
+}
+@media only screen and (min-width:425px){
+    .world .redBtn{
+        margin-left: 120px;
+    }
 }
 /* Media queary end */
