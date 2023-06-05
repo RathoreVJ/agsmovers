@@ -22,6 +22,7 @@ header .tophead .leftgroup ul li a{
     color: #fff;
     font-size: 13px;
 }
+
 header .tophead .leftgroup ul li a:hover{
     text-decoration: underline;
 }
@@ -51,6 +52,32 @@ header .tophead .rightgroup ul li select{
     padding-top: 3px;
     margin-top: 7px;
    
+}
+.mega-menu{
+    display: none;
+    
+}
+.nav-item:hover .mega-menu{
+    background: #34313a;
+    display: block;
+    position: absolute;
+    margin-top: 28px;
+    left: 0;
+    right: 0;
+}
+.mega-menu .choose-us{
+   
+    padding-right: 50px;
+}
+.mega-menu .choose-us .abc:hover{
+    font-weight: 600;
+    transform: scale(1.1);
+    
+}
+.mega-menu .about-ags .xyz:hover{
+    font-weight: 600;
+    transform: scale(1.0.5);
+    
 }
 
 /* navbar end */
@@ -272,14 +299,5 @@ footer button{
     }
 }
 
-@media only screen and (min-width:768px){
-    /* .world .redBtn{
-        margin-left: 270px;
-    } */
-}
-@media only screen and (min-width:425px){
-    .world .redBtn{
-        margin-left: 120px;
-    }
-}
+
 /* Media queary end */
