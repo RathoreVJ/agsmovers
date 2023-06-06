@@ -371,9 +371,35 @@ footer button{
     border: 10px solid #fff;
 }
 
+.load-more button{
+    background: #fff;
+    border: 1px solid #b00000;
+    color: #b00000;
+    text-align: center;
+    width: 150px;
+    height: 40px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 30px;
+    margin-left: 470px;
+    
+}
+.load-more button:hover{
+    background: #b00000;
+    color: #fff;
+    transition: .3s all;
+}
+
 /* news section end */
 /* news.html styling end */
 
+/* contact arrow hide start */
+
+.dropdown-toggle::after{
+    display: none;
+}
+/* contact arrow hide end */
 
 /* Media queary start */
 @media only screen and (max-width:1024px){
