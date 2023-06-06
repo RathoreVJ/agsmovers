@@ -330,6 +330,51 @@ footer button{
 /* country section end */
 
 
+/* news.html styling start */
+
+/* news-img section start */
+
+.news-img img{
+    width: 100%;
+    height: 500px;
+}
+
+/* news-img section end */
+
+/* news section start */
+
+.news{
+    min-height: 220px;
+    min-width: 1200px;
+    margin-top: -50px;
+    z-index: 9;
+    background: #fff;
+    border-bottom: none ;
+}
+.news h1{
+    
+    font-weight: 300;
+    color: #b00000
+}
+.news p{
+    font-size: 20px;
+    font-weight: 500;
+    color: #292b2c;
+    margin-left: 90px;
+    margin-right:  90px;;
+}
+.news-card{
+    
+    justify-content: space-between;
+}
+.news-card img{
+    border: 10px solid #fff;
+}
+
+/* news section end */
+/* news.html styling end */
+
+
 /* Media queary start */
 @media only screen and (max-width:1024px){
     header .tophead{
