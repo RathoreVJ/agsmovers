@@ -274,6 +274,62 @@ footer button{
 /* footer section end */
 
 
+/* Branches.html styling */
+
+/* img section styling start */
+.network-img img{
+    width: 100%;
+    height: 500px;
+}
+
+/* img section styling end */
+
+
+/* benifit section start */
+
+.benifit{
+    min-height: 220px;
+    min-width: 1200px;
+    margin-top: -50px;
+    z-index: 9;
+    background: #fff;
+    border-bottom: none ;
+}
+.benifit h1{
+    
+    font-weight: 300;
+    color: #b00000
+}
+.benifit p{
+    font-size: 16px;
+    font-weight: 500;
+    color: #292b2c;
+    margin-left: 90px;
+    margin-right:  90px;;
+}
+
+
+
+/* benifit section end */
+
+/* country section start */
+
+.table{
+    padding: 10px 0 25px;
+    display: block;
+    columns: 6;
+}
+.table ul li a{
+    color: #34313a;
+    font-weight: 400;
+}
+.table ul li a:hover{
+    color: #b00000;
+}
+
+/* country section end */
+
+
 /* Media queary start */
 @media only screen and (max-width:1024px){
     header .tophead{
