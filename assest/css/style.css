@@ -26,6 +26,43 @@ header .tophead .leftgroup ul li a{
 header .tophead .leftgroup ul li a:hover{
     text-decoration: underline;
 }
+
+header .tophead .leftgroup ul li a.active{
+    width: auto;
+    height: auto;
+    color: #b00000;
+    font-weight: 700;
+    line-height: 28px;
+    text-align: center;
+    position: relative;
+    background: #fff;
+    display: inline-block;
+}
+header .tophead .leftgroup ul li a.active:hover{
+    text-decoration: none;
+}
+header .tophead .leftgroup ul li a.active::before{
+    content: "";
+    top: 0;
+    width: 0;
+    height: 0;
+    right: 100%;
+    position: absolute;
+    border-right: 15px solid #fff;
+    border-bottom: 0px solid #fff;
+    border-top: 28px solid transparent;
+}
+header .tophead .leftgroup ul li a.active::after{
+    content: "";
+    top: 0px;
+    width: 0;
+    height: 0;
+    left: 100%;
+    position: absolute;
+    border-top: 28px solid #fff;
+    border-right: 15px solid transparent;
+    border-bottom: 0px solid transparent;
+}
 header .tophead .rightgroup ul li{
     margin: 0px 15px;
 }
@@ -227,19 +264,21 @@ header .tophead .rightgroup ul li select{
     margin-bottom: 30px;
 }
 .world .redBtn{
-    margin-left: 380px;
+   display: block;
+   margin-right: auto;
+   margin-left: auto;
 }
 .worldwide .whiteBtn{
-    margin-left: 300px;
-    margin-top: 30px;
-    display: flex;
-}
-.worldwide .redBtn{
-    margin-right: 400px;
-    margin-top: 30px;
     display: flex;
     
 }
+.worldwide .redBtn{
+   
+    margin-right: auto;
+}
+
+
+
 
 /* world section end */
 
@@ -420,11 +459,50 @@ footer button{
 
 }
 
-@media only screen and (max-width:1024px){
-    .worldwide .whiteBtn{
-        margin-left: 0;
+@media screen  and (min-width:992px) and (max-width:1200px){
+    .row .whiteBtn{
+       
+        margin-right: 10px;
     }
 }
 
+@media screen  and (min-width:668px)  and (max-width:768px){
+    .carousel-inner .carousel-item .carousel-caption{
+        bottom: 15rem !important;
+    }
+    .carousel-indicators{
+        bottom: 12rem;
+    }
+    .carousel-control-prev{
+        bottom: 5rem;
+      }
+      .carousel-control-next{
+          bottom: 5rem;
+      }
+}
+
+@media screen and (min-width:368px) and (max-width:425px){
+    .carousel-inner .carousel-item .carousel-caption{
+        bottom: 25rem !important;
+    }
+    .carousel-indicators{
+        bottom: 21rem !important;
+    }
+    .carousel-control-prev{
+      bottom: 14rem;
+    }
+    .carousel-control-next{
+        bottom: 14rem;
+    }
+    .interbox{
+        margin-top: -310px;
+    }
+    
+}
+@media screen and (max-width:376px){
+    .row .redBtn a{
+        margin-top: 10px;
+    }
+}
 
 /* Media queary end */
